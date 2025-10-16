@@ -1,0 +1,36 @@
+#include <iostream>
+#include <vector>
+#include <array>
+using namespace std;
+
+vector <int> trees; // to create the tree
+vector <int> ra; 
+void build(int id, int l, int r);
+
+int main() {
+ 
+  ra={1,2,3};
+  int size=ra.size();
+  trees.resize(4*size);  // we need to reisze the segment trees to have enough space for the nodes
+  build(0,0,size-1);
+  
+  for(int each: trees){
+  cout<< each<<endl;
+  }
+  }
+  
+  
+  
+  void build(int id, int l, int r){
+  // base: if it's a leaf node: no left no right child
+  	if(l=r){
+    trees[id]=ra[l];
+    return;
+  	}
+  // find the mid
+  int mid=(l+r)/2;
+  build(2*id+1,l,mid);
+  build(2*id+2,mid+1,r);
+  trees[id]=trees[2*id+1]+ trees[2*id+2];
+  	}
+  
