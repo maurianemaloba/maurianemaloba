@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @maurianemaloba
-- 👀 I’m interested in web Development
-- 🌱 I’m currently implementing some websites using html, Css, Php, and SQL for my database.
+- 👋 Hi, I’m Mauriane Banza
+- 👀 I’m interested in Data Engineering, and I love working on solving business problem by creating product
+- 🌱 I’m currently working on my casptone Project with Edge Perma
 - 💞️ I’m looking to collaborate on projects 
 - 📫 How to reach me through my email: banzamauriane@gmail.com
 
